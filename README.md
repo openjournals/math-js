@@ -18,3 +18,4 @@ http://0.0.0.0:4000/math?math=%0A%5Cbegin%7Baligned%7D%0A%5Cdot%7Bx%7D+%26amp%3B
 
 ...and you should see something like this:
 
+![screen shot 2014-06-13 at 16 35 15](https://cloud.githubusercontent.com/assets/4483/3275981/b7478cd6-f342-11e3-9993-aa0f1d4a1710.png)

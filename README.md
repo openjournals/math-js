@@ -1,4 +1,4 @@
-js-math
+Math JS
 =======
 
 MathJax &amp; Node. Yes please. MathJax Node is available [here](https://github.com/mathjax/MathJax-node).

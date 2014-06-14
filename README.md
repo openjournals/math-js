@@ -1,7 +1,7 @@
 js-math
 =======
 
-MathJax &amp; Node. Yes please.
+MathJax &amp; Node. Yes please. MathJax Node is available [here](https://github.com/mathjax/MathJax-node).
 
 ### Installing
 

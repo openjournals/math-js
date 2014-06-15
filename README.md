@@ -36,3 +36,9 @@ exit 0
 
 # Now try npm install again...
 ```
+
+### Is it green?
+
+Hopefully/probably? You can keep an eye on Travis stuff here:
+
+[![Build Status](https://travis-ci.org/arfon/js-math.svg)](https://travis-ci.org/arfon/js-math)

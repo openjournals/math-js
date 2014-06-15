@@ -13,12 +13,12 @@ npm start # boot the server
 then try hitting up this url in your browser:
 
 ```
-http://0.0.0.0:4000/math?math=%0A%5Cbegin%7Baligned%7D%0A%5Cdot%7Bx%7D+%26amp%3B+%3D+%5Csigma%28y-x%29+%5C%5C%0A%5Cdot%7By%7D+%26amp%3B+%3D+%5Crho+x+-+y+-+xz+%5C%5C%0A%5Cdot%7Bz%7D+%26amp%3B+%3D+-%5Cbeta+z+%2B+xy%0A%5Cend%7Baligned%7D%0A
+http://0.0.0.0:4000/math?math=++1+%2B++%5Cfrac%7Bq%5E2%7D%7B%281-q%29%7D%2B%5Cfrac%7Bq%5E6%7D%7B%281-q%29%281-q%5E2%29%7D%2B%5Ccdots+%3D+%5Cprod_%7Bj%3D0%7D%5E%7B%5Cinfty%7D%5Cfrac%7B1%7D%7B%281-q%5E%7B5j%2B2%7D%29%281-q%5E%7B5j%2B3%7D%29%7D
 ```
 
 ...and you should see something like this:
 
-![screen shot 2014-06-13 at 16 37 07](https://cloud.githubusercontent.com/assets/4483/3275996/ec9bfe6c-f342-11e3-950b-6cfea655f7d6.png)
+![screen shot 2014-06-15 at 09 58 21](https://cloud.githubusercontent.com/assets/4483/3281248/91fa0e34-f49d-11e3-907d-cf16eb5c3ba2.png)
 
 ### If the install fails
 

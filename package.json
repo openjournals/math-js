@@ -5,7 +5,7 @@
   "private": true,
   "dependencies": {
     "express": "3.x",
-    "MathJax-node": "git://github.com:mathjax/MathJax-node.git",
+    "MathJax-node": "mathjax/MathJax-node",
     "supertest": "0.13.0"
   },
   "devDependencies": {

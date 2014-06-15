@@ -1,6 +1,9 @@
 var express = require('express');
+var logfmt = require("logfmt");
 var app = express();
 var exec = require('child_process').execFile;
+
+app.use(logfmt.requestLogger());
 
 app.get('/math', function(req, res){
   exec('./node_modules/MathJax-node/bin/tex2svg', [req.query.math], function (error, stdout, stderr) {

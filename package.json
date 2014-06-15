@@ -5,8 +5,7 @@
   "private": true,
   "dependencies": {
     "express": "3.x",
-    "MathJax-node": "mathjax/MathJax-node",
-    "supertest": "0.13.0"
+    "MathJax-node": "mathjax/MathJax-node"
   },
   "devDependencies": {
     "mocha": "~1.20.1",

@@ -1,6 +1,6 @@
 {
   "name": "math-js",
-  "description": "Node Math Yo.",
+  "description": "Node JS Math Yo.",
   "version": "0.0.1",
   "private": true,
   "dependencies": {

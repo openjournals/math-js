@@ -8,6 +8,10 @@ app.get('/math', function(req, res){
   });
 });
 
+app.get('/ping', function(req, res){
+  res.send("Alive!")
+});
+
 var server = app.listen(4000, function() {
   console.log('Listening on port %d', server.address().port);
 });
@@ -16,3 +20,5 @@ app.use(function(err, req, res, next){
   console.error(err.stack);
   res.send(500, 'Something broke!');
 });
+
+module.exports = app;

@@ -41,4 +41,4 @@ exit 0
 
 Hopefully/probably? You can keep an eye on Travis stuff here:
 
-[![Build Status](https://travis-ci.org/arfon/js-math.svg)](https://travis-ci.org/arfon/js-math)
+[![Build Status](https://travis-ci.org/arfon/math-js.svg)](https://travis-ci.org/arfon/math-js)

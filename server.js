@@ -7,7 +7,11 @@ app.use(logfmt.requestLogger());
 
 app.get('/math', function(req, res){
   exec('./node_modules/MathJax-node/bin/tex2svg', [req.query.math], function (error, stdout, stderr) {
-  res.send(stdout);
+    if (error !== null) {
+      res.send("Oh noes!")
+    } else {
+      res.send(stdout);
+    }
   });
 });
 

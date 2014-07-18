@@ -44,16 +44,18 @@ describe('Math JS Routes', function() {
 
   describe('BENCHMARK MathJax with some TeX', function() {
     it('should return an SVG', function(done) {
-      file = fs.readFileSync('./test/fixtures/performance/1.tex', 'utf-8');
-      var output = exec('./node_modules/MathJax-node/bin/tex2svg', [file], function (error, stdout, stderr) {
+      for (i = 1; i < 100; i++) {
+        file = fs.readFileSync('./test/fixtures/performance/'+i+'.tex', 'utf-8');
+        var output = exec('./node_modules/MathJax-node/bin/tex2svg', [file], function (error, stdout, stderr) {
         if (error != null) {
           console.log(process.cwd());
           console.log(error);
           done();
         }
-        assert.include(stdout, '<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">')
-        done();
+        assert.include(stdout, '<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">');
       });
+      }
+      done();
     });
   });
 });

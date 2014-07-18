@@ -5,6 +5,7 @@ node_js:
 before_install:
   - sudo apt-get update -qq
   - sudo apt-get -qq -y install libxml2-dev libcairo2-dev libpango1.0-dev ttf-lyx
-  
+  - ulimit -n 2000
+
 after_script:
   - ls node_modules/MathJax-node/
